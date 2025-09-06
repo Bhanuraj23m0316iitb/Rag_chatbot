@@ -85,9 +85,9 @@ Simple CLI interface for direct interaction with the chatbot.
 # Default port
 streamlit run src/app.py --server.port 8505
 
-# Alternative port (if 8505 is busy)
+# Alternative port (if 8505 is busy - try to run on other port (8504 , 8506 if they are occupied)
 streamlit run src/app.py --server.port 8502
-try to run on other port if they are occupied
+
 # With encoding support (Windows)
 set PYTHONIOENCODING=utf-8 && streamlit run src/app.py --server.port 8505
 ```

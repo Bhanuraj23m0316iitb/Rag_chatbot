@@ -46,7 +46,7 @@ pip install -r requirements.txt
 GOOGLE_API_KEY=your_api_key_here
 ```
 
-**Option B**: Update the `GOOGLE_API_KEY` directly in `src/main.py` (line 17)
+**Option B**: Update the `GOOGLE_API_KEY` directly in `src/main.py` in (line 17) and `src/app.py` in (line 14)
 
 #### Step 5: Verify Dataset
 The Boss Wallah course dataset (100 courses) is included at:

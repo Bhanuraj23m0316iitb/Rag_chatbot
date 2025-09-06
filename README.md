@@ -87,7 +87,7 @@ streamlit run src/app.py --server.port 8505
 
 # Alternative port (if 8505 is busy)
 streamlit run src/app.py --server.port 8502
-
+try to run on other port if they are occupied
 # With encoding support (Windows)
 set PYTHONIOENCODING=utf-8 && streamlit run src/app.py --server.port 8505
 ```
